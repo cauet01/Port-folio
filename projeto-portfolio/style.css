@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+:root{
+    --h1--font-size: 2rem;
+}
+
+@media screen and (min-width: 900px) {
+    :root{
+        --h1--font-size: 3rem;
+    }
+}
+
+.main h1{
+    font-size: var(--h1--font-size);
+}
+
+.main img{
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.section-title{
+    position: relative;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.section-title::after{
+    position: absolute;
+    content: '';
+    width: 85px;
+    height: 0.30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.6rem;
+    background-color: #0d6efd;
+}
+
+.sobre img{
+    max-width: 280px;
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.progress{
+    height: 5px;
+}
+
+.progress-bar-90{
+    width: 90%
+}
+
+.progress-bar-70{
+    width: 70%
+}
+
+.progress-bar-50{
+    width: 50%
+}
+
+.progress-bar-30{
+    width: 30%
+}
+
+.habilidades img{
+    max-width: 370px;
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.footer{
+    background-color: #0d1330;
+    color: white;
+    margin-top: 10rem;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: rgb(200, 200, 200);
+
+}
