@@ -57,6 +57,10 @@ body{
     height: 5px;
 }
 
+.progress-bar-100{
+    width: 100%
+}
+
 .progress-bar-90{
     width: 90%
 }
